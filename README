@@ -6,12 +6,12 @@ Based on laracast https://laracasts.com/series/the-docker-tutorial/episodes/2
 Commands:
  - Build container
 ```
-docker build . --no-cache -t json-sever
+docker build --no-cache -t laravel-nginx .
 ```
 
 - Run the container
 ```
-docker run --rm -p 3001:3000 json-server
+docker run --rm -p 80:80 -v ~/vetster/laravel-docker.test/src:/var/www/html/public laravel-nginx
 ```
 
 - Take container ID
