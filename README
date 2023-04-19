@@ -1,0 +1,25 @@
+
+### Create a simple Dockerfile
+
+Based on laracast https://laracasts.com/series/the-docker-tutorial/episodes/2
+
+Commands:
+ - Build container
+```
+docker build . --no-cache -t json-sever
+```
+
+- Run the container
+```
+docker run --rm -p 3001:3000 json-server
+```
+
+- Take container ID
+```
+docker ps
+```
+
+- Stop Container
+```
+docker stop 'container-id-from-docker-ps'
+```

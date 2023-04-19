@@ -1,0 +1,17 @@
+{
+	"posts": [
+		{
+			"title": "My Cool alt Post",
+			"author": "Artur Oliveira"
+		},
+		{
+			"title": "Another alt Post",
+			"author": "Artur Oliveira"
+		}
+	],
+	"profile": {
+		"first_name": "Artur",
+		"last_name": "Oliveira",
+		"email": "artur@vetster.com"
+	}
+}
