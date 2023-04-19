@@ -4,7 +4,18 @@
 Based on laracast https://laracasts.com/series/the-docker-tutorial/episodes/2
 
 Commands:
- - Build and run container
+
+ - Build system container
 ```
-docker-compose up --build
+docker-compose up nginx
+```
+
+ - Build composer image
+```
+docker-compose build composer
+```
+
+- Run composer
+```
+docker-compose run --rm composer create-project laravel/laravel .
 ```
