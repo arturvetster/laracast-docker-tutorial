@@ -1,7 +1,7 @@
 
 ### Create a simple Dockerfile
 
-Based on laracast https://laracasts.com/series/the-docker-tutorial/episodes/2
+Based on laracast https://laracasts.com/series/the-docker-tutorial/episodes/7
 
 Commands:
 
