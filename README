@@ -4,22 +4,7 @@
 Based on laracast https://laracasts.com/series/the-docker-tutorial/episodes/2
 
 Commands:
- - Build container
+ - Build and run container
 ```
-docker build --no-cache -t laravel-nginx .
-```
-
-- Run the container
-```
-docker run --rm -p 80:80 -v ~/vetster/laravel-docker.test/src:/var/www/html/public laravel-nginx
-```
-
-- Take container ID
-```
-docker ps
-```
-
-- Stop Container
-```
-docker stop 'container-id-from-docker-ps'
+docker-compose up --build
 ```
